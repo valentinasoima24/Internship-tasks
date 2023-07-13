@@ -1,6 +1,6 @@
 function computeSizeOnDisk(clusterSize, fileSize) {
-    const clustersNumber = Math.ceil(fileSize / clusterSize);
-    return clusterCount * clusterSize;
+    const clusterCount = Math.ceil(fileSize / clusterSize);
+    return clustersNumber * clusterSize;
 }
 
 const clusterSize = 512;
