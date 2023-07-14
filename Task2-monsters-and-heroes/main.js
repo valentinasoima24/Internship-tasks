@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var myExportLibrary_1 = require("./myExportLibrary");
+var player1 = new myExportLibrary_1.Hero("Superman", 100, 10, myExportLibrary_1.EntityType.Hero);
+var player2 = new myExportLibrary_1.Monster("Joker", 100, 15, myExportLibrary_1.EntityType.Monster);
+var player3 = new myExportLibrary_1.Hero("Batman", 100, 11, myExportLibrary_1.EntityType.Hero);
+var player4 = new myExportLibrary_1.Monster("Hulk", 100, 20, myExportLibrary_1.EntityType.Monster);
+var battle = new myExportLibrary_1.Battle(player1, player2);
+battle.fight(player1, player2);
+var battle2 = new myExportLibrary_1.Battle(player2, player1);
+battle2.fight(player2, player1);
+var battle3 = new myExportLibrary_1.Battle(player1, player3);
+battle3.fight(player1, player3);
+var battle4 = new myExportLibrary_1.Battle(player2, player4);
+battle4.fight(player2, player4);
