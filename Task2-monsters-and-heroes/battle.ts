@@ -1,4 +1,4 @@
-import { Entity } from './myExportLibrary';
+import { Entity } from './my-export-library';
 
 export class Battle<T extends Entity> {
     player1: T;

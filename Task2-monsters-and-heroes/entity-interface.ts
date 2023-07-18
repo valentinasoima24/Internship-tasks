@@ -1,4 +1,4 @@
-import { EntityType } from './myExportLibrary';
+import { EntityType } from './my-export-library';
 
 export interface Entity {
     name: string;
