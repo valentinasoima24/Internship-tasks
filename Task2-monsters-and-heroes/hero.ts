@@ -8,7 +8,5 @@ export class Hero extends Player {
         type: EntityType.Hero
     ) {
         super(name, health, strength, EntityType.Hero);
-        this.name = name;
-        this.type = type;
     }
 }

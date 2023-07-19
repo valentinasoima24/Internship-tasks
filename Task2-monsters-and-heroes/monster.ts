@@ -8,7 +8,5 @@ export class Monster extends Player {
         type: EntityType.Monster
     ) {
         super(name, health, strength, EntityType.Monster);
-        this.name = name;
-        this.type = type;
     }
 }
