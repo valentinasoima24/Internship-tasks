@@ -30,5 +30,5 @@ var Monster = /** @class */ (function (_super) {
         return _this;
     }
     return Monster;
-}(my_export_library_1.AttackAndEffect));
+}(my_export_library_1.Player));
 exports.Monster = Monster;

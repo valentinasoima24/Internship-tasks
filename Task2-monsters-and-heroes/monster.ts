@@ -1,13 +1,13 @@
-import { EntityType, AttackAndEffect } from './my-export-library';
+import { EntityType, Player } from './my-export-library';
 
-export class Monster extends AttackAndEffect {
-    public constructor(
-        public name: string,
-        public health: number,
-        public strength: number,
-        public type: EntityType.Monster
+export class Monster extends Player {
+    constructor(
+        name: string,
+        health: number,
+        strength: number,
+        type: EntityType.Monster
     ) {
-        super(health, strength);
+        super(name, health, strength, EntityType.Monster);
         this.name = name;
         this.type = type;
     }

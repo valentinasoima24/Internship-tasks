@@ -30,5 +30,5 @@ var Hero = /** @class */ (function (_super) {
         return _this;
     }
     return Hero;
-}(my_export_library_1.AttackAndEffect));
+}(my_export_library_1.Player));
 exports.Hero = Hero;
